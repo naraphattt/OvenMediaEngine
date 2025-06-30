@@ -8,7 +8,7 @@ services:
     ports:
     - "9001:9000/tcp" # OVT(Origin)
     - "1936:1935/tcp" # RTMP Provider
-    - "9997:9999/udp" # SRT
+    - "6009:9999/udp" # SRT
     - "3333:3333/tcp" # WebRTC Signaling / LLHLS
     - "3334:3334/tcp" # TLS WebRTC Signaling / LLHLS - Optional unless TLS is enabled
     - "3478:3478/tcp" # WebRTC TURN
